@@ -1,0 +1,124 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: blueviolet;
+    background-color:  rgb(238, 238, 255);
+}
+
+#contenedorPrincipal,#contenedorPrincipalIndex, #divReturnId{
+    padding: 20px;
+    background-color: rgb(209, 208, 255);
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1500px;
+}
+
+#divCarrito{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(209, 208, 255);
+    border-radius: 10px;
+    margin: 10px;
+    width: 300px;
+}
+
+.productoCarrito{
+    margin-top: 10px;
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.productoCarrito:hover{
+    border-style:double;
+    background-color: brown;
+    color: white;
+}
+
+p{
+    border-radius: 5px;
+    padding: 3px;
+    color: blueviolet;
+    background-color: aquamarine;
+    font-size: large;
+    text-align: center;
+}
+
+#contenedorCategory{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(209, 208, 255);
+    border-radius: 10px;
+    width: 100%;
+}
+
+#contenedorPrincipalIndex:hover, #divReturnId:hover{
+    background-color: aquamarine;
+}
+
+img{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#contenedorProductos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.productoIndividual{
+    margin: 20px;
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 5px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.productoIndividual p{
+    margin: 5px;
+    padding: 0;
+}
+
+.productoIndividual:hover{
+    border-style:double;
+}
+
+#avisoId{
+    color: rgb(255, 0, 76);
+    background-color: rgb(253, 225, 201);
+    padding: 3px;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 500px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h4,h5{
+    margin: 0;
+    margin-top: 5px;
+    padding: 0;
+    text-decoration: underline;
+    color: rgb(173, 87, 253);
+}
